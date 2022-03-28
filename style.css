@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Google_Sans';
+    src: url(./assets/OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Google_SansItalic';
+    src: url(./assets/OpenSans-MediumItalic.ttf);
+}
+
+body{
+	background-color:rgba(162, 243, 226, 0.2);
+	font-family: Arial, Helvetica, sans-serif;
+}
+u{
+	color: rgb(138, 139, 139);
+	
+}
+
+
+.first-h{
+	margin-top:5px;
+    font-size:5em;
+    color:rgb(248, 69, 69);
+    text-shadow:2px 3px 1px  gray;
+   font-family: Google_Sans;
+
+}
+
+.link{
+    text-decoration: none;
+    font-size: 22px;
+    border-left: 1px solid #000000;
+    padding-left: 5px;
+}
+
+.link:hover{
+    text-decoration: underline;
+	color: black;
+	font-size: 20px;
+}
+
+.cont{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.dis{
+    color: rgb(248, 69, 69);
+    font-size:50px;
+	text-decoration:underline;
+	font-family: Google_SansItalic;
+}
+
+#text1{
+	font-size:16px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#dt{
+	padding:5px;
+    background-color: rgba(123,123,132,0.4);
+    color:white;
+    padding-left:10px;
+    font-size:22px; 
+	text-shadow:3px 3px 3px black;
+}
+
+.top{
+	text-decoration:none;
+	color:white;
+	position:fixed;
+	top:85%;
+	margin-left:88%;
+	padding:8px;
+	font-family:arial;
+	font-size:2.5em;
+	background-color:rgba(232,23,123,0.3);
+	border-radius:3px 25px 3px 25px;
+    border-radius:20px;
+	cursor:pointer;
+}
+
+.top:hover{
+	background-color: #EC7E94;
+	border:1px solid darkred;
+}
+
+img {
+	width:300px;
+	height: 300px;
+	border: 5px solid rgba(209, 139, 139, 0.993);
+	border-style: double;
+}
+
+h3 {
+	padding:5px;
+    background-color: rgba(123,123,132,0.4);
+    color:rgba(236, 83, 83, 0.993);
+    padding-left:10px;
+    font-size:18px; 
+	text-shadow:1px 1px 1px black;
+	text-align: center;
+}
